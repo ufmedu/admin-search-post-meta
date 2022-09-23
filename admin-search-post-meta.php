@@ -1,3 +1,5 @@
+<?php
+
 add_action('after_setup_theme', function(){
 	add_filter('posts_groupby', function($groupby){
 		global $pagenow, $wpdb;
